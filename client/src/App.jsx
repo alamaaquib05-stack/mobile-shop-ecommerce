@@ -40,10 +40,10 @@ import AdminOrders from './pages/admin/AdminOrders';
 import AdminProducts from './pages/admin/AdminProducts';
 import ProductForm from './pages/admin/ProductForm';
 import AdminCoupons from './pages/admin/AdminCoupons';
+import AdminSettings from './pages/admin/AdminSettings';
 
 // Placeholder components (will be built in later phases)
 const Profile = () => <div className="p-8"><h1 className="text-3xl font-bold">My Profile</h1></div>;
-const AdminSettings = () => <div className="p-8"><h1 className="text-3xl font-bold">Admin Settings</h1></div>;
 const NotFound = () => <div className="p-8"><h1 className="text-3xl font-bold">404 - Page Not Found</h1></div>;
 
 function App() {
